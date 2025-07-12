@@ -1,0 +1,64 @@
+:root {
+  --dark-purple: #14012A;
+  --light-purple: #3F1274;
+  --white: #ffffff;
+  --text-dark: #222222;
+  --bg-light: #e7e7e7;
+}
+
+/* Général */
+body {
+  background-color: var(--white);
+  color: var(--text-dark);
+  font-family: 'Segoe UI', sans-serif;
+  line-height: 1.6;
+}
+
+.section-title {
+  font-weight: 600;
+  color: var(--dark-purple);
+}
+
+/* Cartes */
+.card {
+  background-color: var(--white);
+  border-radius: 12px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 16px rgba(132, 91, 178, 0.15);
+}
+
+/* Couleurs */
+.bg-dark-purple {
+  background-color: var(--dark-purple);
+}
+
+.text-purple {
+  color: var(--light-purple);
+}
+
+/* Bouton violet */
+.btn-purple {
+  background-color: var(--light-purple);
+  color: var(--white);
+  border: none;
+  border-radius: 25px;
+  padding: 8px 20px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.btn-purple:hover {
+  background-color: #7348a3;
+  color: var(--white);
+  text-decoration: none;
+}
+
+/* Liens */
+a.text-white:hover {
+  color: var(--light-purple);
+  text-decoration: none;
+}

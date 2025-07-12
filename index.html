@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio de développeur web et mobile : HTML, CSS, Bootstrap, JavaScript, PHP, Angular, Symfony, Flutter...">
+  <title>Portfolio | Ethan Boulard</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="assets\style.css">
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+<header class="bg-dark-purple text-white text-center py-5">
+  <div class="container">
+    <h1 class="fw-bold">Ethan Boulard</h1>
+    <p class="lead">Développeur Web & Mobile</p>
+  </div>
+</header>
+
+<section class="bg-light text-dark py-5">
+  <div class="container">
+    <h2 class="section-title text-center mb-4">Ma Formation</h2>
+    <p class="text-center mb-5">
+      Une formation complète en développement web et mobile avec des technologies modernes et variées.
+    </p>
+    <div class="row g-4">
+
+      <div class="col-md-4">
+        <div class="card h-100 border-0 shadow-sm">
+          <div class="card-body">
+            <h5 class="card-title text-purple">Front-End</h5>
+            <p>HTML, CSS, Bootstrap, JavaScript, jQuery, Angular : Création d'interfaces web modernes et interactives.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card h-100 border-0 shadow-sm">
+          <div class="card-body">
+            <h5 class="card-title text-purple">Back-End</h5>
+            <p>PHP, Symfony, MySQL, MongoDB : Développement de solutions web robustes et sécurisées.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card h-100 border-0 shadow-sm">
+          <div class="card-body">
+            <h5 class="card-title text-purple">Mobile & CMS</h5>
+            <p>Flutter, Kotlin, WordPress, WooCommerce : Développement mobile et gestion de contenu web.</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<section class="bg-light text-dark py-5">
+  <div class="container">
+    <h2 class="section-title text-center mb-4">Mes Projets</h2>
+    <div class="row g-4">
+
+      <div class="col-md-6">
+        <div class="card h-100 border-0 shadow-sm">
+          <div id="carouselProjet1" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="assets\img\projet1_1.png" class="d-block w-100" alt="Projet 1">
+              </div>
+              <div class="carousel-item">
+                <img src="assets\img\projet1_2.png" class="d-block w-100" alt="Projet 1 bis">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselProjet1" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon btn-purple"></span>
+            </button>
+            <button class="carousel-control-next " type="button" data-bs-target="#carouselProjet1" data-bs-slide="next">
+              <span class="carousel-control-next-icon btn-purple"></span>
+            </button>
+          </div>
+          <div class="card-body">
+            <h5 class="card-title text-purple">E-Commerce Mock-up</h5>
+            <p class="card-text">
+        Application web front-end simulant une boutique en ligne avec navigation dynamique, ajout au panier, et interface responsive.
+      </p>
+      <ul class="list-unstyled small mb-3">
+        <li>☁️ API publique (DummyJSON)</li>
+        <li>📦 Fiches produit dynamiques avec `?id=...`</li>
+        <li>🛒 Ajout et gestion du panier</li>
+        <li>💸 Calcul du total automatique</li>
+        <li>📱 Responsive avec Bootstrap 5</li>
+      </ul>
+      <p class="text-muted small">Stack : HTML, CSS, Bootstrap, JS, jQuery, API REST</p>
+            <a href="https://b-ethan07.github.io/e_commerce/" class="btn btn-purple">Voir plus</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="card h-100 border-0 shadow-sm">
+          <div id="carouselProjet2" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="assets\img\projet2_1.png" class="d-block w-100" alt="Projet 1">
+              </div>
+              <div class="carousel-item">
+                <img src="assets\img\projet2_2.png" class="d-block w-100" alt="Projet 1 bis">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselProjet1" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon btn-purple"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselProjet2" data-bs-slide="next">
+              <span class="carousel-control-next-icon btn-purple"></span>
+            </button>
+          </div>
+          <div class="card-body">
+            <h5 class="card-title text-purple">Educ'Easy</h5>
+          <p class="card-text">
+        Blog conçu pour les parents, proposant articles, conseils et activités pour enfants. Les utilisateurs peuvent publier leurs propres contenus.
+         </p>
+         <ul class="list-unstyled small mb-3">
+        <li>📰 Derniers articles en page d’accueil</li>
+        <li>🔍 Recherche & filtres par catégorie</li>
+        <li>✍️ Formulaire de création d’article</li>
+        <li>📬 Newsletter avec popup</li>
+        <li>💾 Stockage d’images en base de données</li>
+      </ul>
+      <p class="text-muted small">Stack : HTML, CSS, Bootstrap, JS, PHP (PDO), MySQL</p>
+            <a href="https://github.com/B-Ethan07/Educ-easy" class="btn btn-purple">Voir plus</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="bg-dark-purple text-white py-5">
+  <div class="container text-center">
+    <h2 class="section-title mb-4">Me contacter</h2>
+    <p class="mb-3">Vous pouvez me retrouver ici :</p>
+    <div class="d-flex justify-content-center gap-4 fs-4">
+      <a href="https://github.com/B-Ethan07" class="text-white" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+      <a href="https://www.linkedin.com/in/ethan-boulard-4b1112364/" class="text-white" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
+    </div>
+  </div>
+</section>
+
+<footer class="bg-black text-white text-center py-3">
+  <p class="mb-0">&copy; 2025 Ethan Boulard - Tous droits réservés</p>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+
